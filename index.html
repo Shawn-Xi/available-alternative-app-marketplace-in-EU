@@ -24,6 +24,21 @@
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+        footer a {
+            color: #ffd700;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
@@ -31,7 +46,7 @@
 
     <section id="whats-about">
         <h2>What's this about</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consequat justo vitae est ultrices hendrerit. Vivamus euismod auctor ex sit amet bibendum. Integer id scelerisque libero, a vestibulum libero.</p>
+        <p>As Apple announced, <a href="https://support.apple.com/en-gb/118110">"Users based in the European Union with an iPhone have the ability to install apps using alternative app marketplaces"</a> from iOS 17.4. But just a few marketplace is available for now. To reduce the effort to find them out, list in this page.</p>
     </section>
 
     <section id="marketplace-app">
@@ -39,59 +54,40 @@
         <table border="1">
             <tr>
                 <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-                <th>Rating</th>
+                <th>Official Websites</th>
+                <th>Available</th>
+                <th>Remark</th>
             </tr>
             <tr>
-                <td>App 1</td>
-                <td>Description 1</td>
-                <td>$10</td>
-                <td>4.5</td>
+                <td>AltStore</td>
+                <td><a href="https://altstore.io/">https://altstore.io/</a></td>
+                <td>YES</td>
+                <td>Only AltStore PAL is a format of Alternative Marketplace. AltStore (World) is an old version which have nothing to do with Apple new feature. Download from: https://altstore.io/#Downloads</td>
             </tr>
             <tr>
-                <td>App 2</td>
-                <td>Description 2</td>
-                <td>$15</td>
-                <td>4.0</td>
+                <td>Setapp</td>
+                <td><a href="https://setapp.com/">https://setapp.com/</a></td>
+                <td>NO</td>
+                <td></td>
             </tr>
             <tr>
-                <td>App 3</td>
-                <td>Description 3</td>
-                <td>$20</td>
-                <td>4.2</td>
+                <td>Mobivention </td>
+                <td><a href="https://mobivention.com/">https://mobivention.com/</a></td>
+                <td>YES</td>
+                <td>A B2B app, not available for personal users.</td>
             </tr>
         </table>
     </section>
 
     <section id="web-app">
-        <h2>Web App</h2>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>Description</th>
-                <th>Price</th>
-                <th>Rating</th>
-            </tr>
-            <tr>
-                <td>Web App 1</td>
-                <td>Description 1</td>
-                <td>Free</td>
-                <td>4.7</td>
-            </tr>
-            <tr>
-                <td>Web App 2</td>
-                <td>Description 2</td>
-                <td>Free</td>
-                <td>4.2</td>
-            </tr>
-            <tr>
-                <td>Web App 3</td>
-                <td>Description 3</td>
-                <td>Free</td>
-                <td>4.0</td>
-            </tr>
-        </table>
+        <h2>Web Distribution Apps</h2>
+        <p>As Apple announced in <a href="https://developer.apple.com/support/web-distribution-eu/">Web Distribution In the EU</a>, apps more than 1B downloads/month can distribute app from it's own web page, besides App Store. No app is ready for now.</p>
     </section>
 </body>
+
+<footer>
+    <p>© 2024 Shawn Xi</p> 
+    <p>Only for usage of personal reference. If you get any information to update, you are very welcome to leave a message in <a href="https://github.com/Shawn-Xi/available-alternative-app-marketplace-in-EU/issues">Issue Page</a>
+    </p>
+</footer>
 </html>
